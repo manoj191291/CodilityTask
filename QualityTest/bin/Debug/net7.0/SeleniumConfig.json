@@ -1,0 +1,26 @@
+{
+  "selenium": {
+    "browser": "chrome",
+    "arguments": [
+      "--start-maximized",
+      "--disable-features",
+      "--disable-popup-blocking",
+      "--disable-settings-window",
+      "--disable-impl-side-painting",
+      "--enable-javascript",
+      "--start-maximized",
+      "--no-sandbox",
+      "--disable-gpu",
+      "--dump-dom",
+      "test-type=browser",
+      "disable-infobars",
+      "test-type",
+      "--enable-automation",
+      "--disable-dev-shm-usage"
+    ],
+    "privateMode": true,
+    "defaultTimeout": 60,
+    "headless": false,
+    "EnvUrl": ""
+  }
+}

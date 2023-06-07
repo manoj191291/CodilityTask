@@ -1,0 +1,49 @@
+{
+  "uuid": "7ee341f388314626a043297675f7ce84",
+  "historyId": "Verify Selenium Driver",
+  "fullName": "Verify Selenium Driver",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "5"
+    },
+    {
+      "name": "host",
+      "value": "MANOJKANNAN"
+    },
+    {
+      "name": "feature",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Verify Selenium Driver",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Selenium driver is created",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165611457,
+      "stop": 1686165611464
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686165611394,
+  "stop": 1686165611467
+}

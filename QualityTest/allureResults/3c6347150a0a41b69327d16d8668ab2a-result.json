@@ -1,0 +1,139 @@
+{
+  "uuid": "5956dc796bbd4d5798b2fa8100108c17",
+  "historyId": "Remove lowest price item1826717440",
+  "fullName": "Remove lowest price item",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "MANOJKANNAN"
+    },
+    {
+      "name": "feature",
+      "value": "Codility Task"
+    },
+    {
+      "name": "tag",
+      "value": "PriceItem"
+    },
+    {
+      "name": "tag",
+      "value": "Cart"
+    }
+  ],
+  "links": [],
+  "name": "Remove lowest price item",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.AreEqual failed. Expected:<2>. Actual:<4>. Expected Item in Cart:4 Vs Actual Items in Cart:2",
+    "trace": "Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:<2>. Actual:<4>. Expected Item in Cart:4 Vs Actual Items in Cart:2\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, IEqualityComparer`1 comparer, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message)\r\n   at OneAutomationFramework.Steps.CartPageSteps.ThenIFindTotalItemsListedInMyCart(Int32 totalItems) in C:\\Users\\kanna\\Downloads\\OneAutomationFramework\\OneAutomationFramework\\Steps\\CartPageSteps.cs:line 24\r\n   at InvokeStub_Action`2.Invoke(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I add '4' random items to my cart",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686176013138,
+      "stop": 1686176027976
+    },
+    {
+      "name": "When  I view my cart",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686176030728,
+      "stop": 1686176086319
+    },
+    {
+      "name": "Then  I find total '4' items listed in my cart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686176089790,
+      "stop": 1686176114353
+    },
+    {
+      "name": "When  I search for lowest price item",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686176114354,
+      "stop": 1686176114355
+    },
+    {
+      "name": "And  I am able to remove the lowest price item from my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686176114357,
+      "stop": 1686176114357
+    },
+    {
+      "name": "Then  I am able to verify items in my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686176114357,
+      "stop": 1686176114357
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "NoOfItems",
+      "value": "4"
+    }
+  ],
+  "start": 1686176013114,
+  "stop": 1686176115131
+}

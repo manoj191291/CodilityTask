@@ -1,0 +1,138 @@
+{
+  "uuid": "b49e562ad6d14573ab5f95477ea8048a",
+  "historyId": "Remove lowest price item1826717440",
+  "fullName": "Remove lowest price item",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "MANOJKANNAN"
+    },
+    {
+      "name": "feature",
+      "value": "Codility Task"
+    },
+    {
+      "name": "tag",
+      "value": "PriceItem"
+    },
+    {
+      "name": "tag",
+      "value": "Cart"
+    }
+  ],
+  "links": [],
+  "name": "Remove lowest price item",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I add '4' random items to my cart",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686169161797,
+      "stop": 1686169161807
+    },
+    {
+      "name": "When  I view my cart",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686169161807,
+      "stop": 1686169162646
+    },
+    {
+      "name": "Then  I find total '4' items listed in my cart",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686169162646,
+      "stop": 1686169162658
+    },
+    {
+      "name": "When  I search for 'lowest' price item",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686169162658,
+      "stop": 1686169162672
+    },
+    {
+      "name": "And  I am able to remove the 'lowest' price item from my cart",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686169162673,
+      "stop": 1686169162676
+    },
+    {
+      "name": "Then  I am able to verify items in my cart",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686169162676,
+      "stop": 1686169162680
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "NoOfItems",
+      "value": "4"
+    }
+  ],
+  "start": 1686169161747,
+  "stop": 1686169162794
+}

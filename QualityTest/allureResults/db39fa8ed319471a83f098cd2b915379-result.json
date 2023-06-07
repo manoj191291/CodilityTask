@@ -1,0 +1,139 @@
+{
+  "uuid": "4a6a8385975b4f7d8bc1463cd6bf4409",
+  "historyId": "Remove lowest price item1826717440",
+  "fullName": "Remove lowest price item",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "MANOJKANNAN"
+    },
+    {
+      "name": "feature",
+      "value": "Codility Task"
+    },
+    {
+      "name": "tag",
+      "value": "PriceItem"
+    },
+    {
+      "name": "tag",
+      "value": "Cart"
+    }
+  ],
+  "links": [],
+  "name": "Remove lowest price item",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The HTTP request to the remote WebDriver server for URL http://localhost:53598/session/3f903b23ff553132c836533fe116af91/url timed out after 60 seconds. -> The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing. -> The operation was canceled. -> The operation was canceled. -> Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request.. -> The I/O operation has been aborted because of either a thread exit or an application request.",
+    "trace": "OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:53598/session/3f903b23ff553132c836533fe116af91/url timed out after 60 seconds.\r\n ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.\r\n ---> System.TimeoutException: The operation was canceled.\r\n ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.\r\n ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..\r\n ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   --- End of inner exception stack trace ---\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   --- End of inner exception stack trace ---\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OneAutomationFramework.Hooks.SeleniumHooks.BeforeScenario() in C:\\Users\\kanna\\Downloads\\OneAutomationFramework\\OneAutomationFramework\\Hooks\\SeleniumHooks.cs:line 32\r\n   at InvokeStub_Action`1.Invoke(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I add '4' random items to my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686178081645,
+      "stop": 1686178081650
+    },
+    {
+      "name": "When  I view my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686178081652,
+      "stop": 1686178081652
+    },
+    {
+      "name": "Then  I find total '4' items listed in my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686178081652,
+      "stop": 1686178081653
+    },
+    {
+      "name": "When  I search for lowest price item",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686178081653,
+      "stop": 1686178081653
+    },
+    {
+      "name": "And  I am able to remove the lowest price item from my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686178081653,
+      "stop": 1686178081653
+    },
+    {
+      "name": "Then  I am able to verify items in my cart",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686178081653,
+      "stop": 1686178081653
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "NoOfItems",
+      "value": "4"
+    }
+  ],
+  "start": 1686178081631,
+  "stop": 1686178082565
+}
